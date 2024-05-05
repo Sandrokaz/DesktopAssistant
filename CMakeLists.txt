@@ -17,6 +17,9 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        taskmanager.h
+        taskmanager.cpp
+        taskmanager.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
