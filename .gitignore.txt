@@ -1,0 +1,49 @@
+# Compiled Object files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Qt-specific files that should not be uploaded
+*.user
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.qbs.shared
+*.qbs.shared.*
+*.qmake.stash
+*.qmake.cache
+
+# Qt Creator generated files
+*.autosave
+
+# Generated files by Qt
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Qt's Debugging files
+*.qmlc
+*.jsc
+
+# Build folders (variable per build configuration)
+build/
+debug/
+release/
+Makefile*
+*-build-desktop/
+
+# Ignore CMake generated directories
+cmake-build-*/
+
+# Other files to ignore
+.DS_Store
+Thumbs.db
